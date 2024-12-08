@@ -41,9 +41,29 @@ The number of rows in the original DataFrame is 1534 and has 57 columns. However
 | `'NERC.REGION'`              | North American Electric Reliability Corporation (NERC) regions involved in the outage event |
 
 # Data Cleaning and Exploratory Data Analysis 
+#### Cleaning
+This step begins with cleaning the data appropriately.
+
+#### Imputation
+We impute missing values.
+
+#### Univariate Analysis
+Next, we perform univariate analysis by looking at the distributions of relevant columns separately.
+
+#### Bivariate Analysis
+After this, we perform bivariate analysis. We look at the statistics of pairs of columns to identify possible associations.
+
+#### Aggregating
+We choose columns to group and pivot by in this step to examine aggregate statistics.
 
 # Framing a Prediction Problem
+#### Problem Identification
+Identify a prediction problem.
 
 # Baseline Model
+#### Baseline Model
+Train a “baseline model” for your prediction task that uses at least two features.
 
 # Final Model
+#### Final Model
+Created a “final” model that improves upon the “baseline” model
